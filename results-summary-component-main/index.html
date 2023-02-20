@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="main__container">
+    <div class="score__side">
+      <h2 class="heading-2 transparent">Your Result</h2>
+      <div class="score__circle">
+        <h1 class="score__heading">76</h1><br>
+        <span class="span__score">of 100</span>
+      </div>
+      <div class="results">
+      <h1 class="result">Great</h1>
+      <p class="paragraph">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    </div>
+    <div class="summary__side">
+      <h2 class="heading-2-solid">Summary</h2>
+      <div class="summary__results reaction">
+        <img src="assets/images/icon-reaction.svg" alt="Lighting icon like a reaction" class="summary__img reaction__img">
+        <h3 class="heading-3-red">Reaction</h3>
+        <p class="summary__points">80 <span class="gray"> / 100</span></p>
+      </div>
+      <div class="summary__results memory">
+        <img src="assets/images/icon-memory.svg" alt="Lighting icon like a brain" class="summary__img memory__img">
+        <h3 class="heading-3-orange">Memory</h3>
+        <p class="summary__points">92 <span class="gray"> / 100</span></p>
+      </div>
+      <div class="summary__results verbal">
+        <img src="assets/images/icon-verbal.svg" alt="Conversational globe icon" class="summary__img verbal__img">
+        <h3 class="heading-3-green">Verbal</h3>
+        <p class="summary__points">61 <span class="gray"> / 100</span></p>
+      </div>
+      <div class="summary__results visual">
+        <img src="assets/images/icon-visual.svg" alt="Eye icon" class="summary__img visual__img">
+        <h3 class="heading-3-blue">Visual</h3>
+        <p class="summary__points">72 <span class="gray"> / 100</span></p>
+      </div>
+      <button class="btn">Continue</button>
+    </div>
+  </main>
+
+  <!-- <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer> -->
+</body>
+</html>
